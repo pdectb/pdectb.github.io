@@ -1,5 +1,8 @@
 [
-    "main.html",
+    "./wow_book/wow_book.min.js",
     "main.css",
-    {"css": "http://fonts.googleapis.com/css?family=Noto+Serif"}
+    "./wow_book/wow_book.css",
+    {"css": "http://fonts.googleapis.com/css?family=Noto+Serif"},
+    "book.html",
+    "main.coffee"
 ]
