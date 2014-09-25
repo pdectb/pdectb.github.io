@@ -1,8 +1,15 @@
 [
-    "./wow_book/wow_book.min.js",
-    "main.css",
-    "./wow_book/wow_book.css",
     {"css": "http://fonts.googleapis.com/css?family=Noto+Serif"},
+    "kdv/page1.txt",
+    "kdv/page2.txt",
+    "wow_book/wow_book.min.js",
+    "wow_book/wow_book.css",
+    "/puzlet/js/d3.min.js",
+    "http://puzlet.org/line-chart/main.coffee",
+    "http://puzlet.org/basic-animation/main.coffee",
+    "http://pdectb.github.io/kdv-etdrk4/step.coffee",
+    "kdv/movie.coffee",
     "book.html",
+    "main.css",
     "main.coffee"
 ]
