@@ -9,12 +9,18 @@ $("#page2").html txt
 # wow
 
 $("#mybook").wowBook
-    height: 1000
-    width: 1200
-    centeredWhenClosed: true
-    hardcovers: true
-    turnPageDuration: 500
-    numberedPages: [2, -3]
+    height: 500
+    width: 800
+    pageNumbers: 0
+    flipSounds: 0
+    controls:
+        next: '#next'
+        back: '#back'
+        first: '#first'
+        last: '#last'
+        slideShow: '#slideshow'
+        flipSound: '#flipsound'
+        fullscreen: '#fullscreen'
 
 # Play movie
 
