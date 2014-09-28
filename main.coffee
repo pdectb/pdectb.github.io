@@ -1,13 +1,14 @@
 # Load text
 
-txt = $blab.resource "kdv/page1.txt"
-$("#page1").html txt
+#txt = $blab.resource "kdv/page1.txt"
+#$("#page1").html txt
 
-txt = $blab.resource "kdv/page2.txt"
-$("#page2").html txt
+#txt = $blab.resource "kdv/page2.txt"
+#$("#page2").html txt
 
 # wow
 
+###
 $("#mybook").wowBook
     height: 500
     width: 800
@@ -21,6 +22,7 @@ $("#mybook").wowBook
         slideShow: '#slideshow'
         flipSound: '#flipsound'
         fullscreen: '#fullscreen'
+###
 
 # Play movie
 
