@@ -1,1 +1,1 @@
-Coordinates content from other repositories.
+Preliminary proposal.
