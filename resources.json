@@ -6,7 +6,7 @@
     "http://pdectb.github.io/kdv-etdrk4/step.coffee",
     "kdv/movie.coffee",
     "wow_book/wow_book.min.js",
-    "light.css",
     "main.css",
+    "light.css",
     "main.coffee"
 ]
