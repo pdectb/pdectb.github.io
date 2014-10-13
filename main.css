@@ -1,3 +1,4 @@
+
 h2 {
   font-family: 'Noto Serif', serif;
   font-size:    32px;
@@ -257,55 +258,55 @@ nav li.active a, nav a:active, nav a:visited {
 }
 
 nav #zoomin {
-    background-image: url(wowbook/images/icons/zoom_in.png);
+    background-image: url(icons/zoom_in.png);
 }
 
 nav #zoomout {
-    background-image: url(wowbook/images/icons/zoom_out.png);
+    background-image: url(icons/zoom_out.png);
 }
 
 nav #first {
-    background-image: url(wowbook/images/icons/arrow_double_left.png);
+    background-image: url(icons/arrow_double_left.png);
 }
 
 nav #last {
-    background-image: url(wowbook/images/icons/arrow_double_right.png);
+    background-image: url(icons/arrow_double_right.png);
 }
 
 nav #next {
-    background-image: url(wowbook/images/icons/arrow_right.png);
+    background-image: url(icons/arrow_right.png);
 }
 
 nav #back {
-    background-image: url(wowbook/images/icons/arrow_left.png);
+    background-image: url(icons/arrow_left.png);
 }
 
 nav #slideshow {
-    background-image: url(wowbook/images/icons/slideshow_play.png);
+    background-image: url(icons/slideshow_play.png);
 }
 
 nav #slideshow.wowbook-disabled {
-    background-image: url(wowbook/images/icons/slideshow_pause.png);
+    background-image: url(icons/slideshow_pause.png);
 }
 
 nav #flipsound {
-  background-image: url(wowbook/images/icons/sound_on.png);
+  background-image: url(icons/sound_on.png);
 }
 
 nav #flipsound.wowbook-disabled {
-    background-image: url(wowbook/images/icons/sound_off.png);
+    background-image: url(icons/sound_off.png);
 }
 
 nav #thumbs {
-    background-image: url(wowbook/images/icons/thumbs.png);
+    background-image: url(icons/thumbs.png);
 }
 
 nav #fullscreen {
-    background-image: url(wowbook/images/icons/fullscreen_on.png);
+    background-image: url(icons/fullscreen_on.png);
 }
 
 nav #fullscreen.wowbook-disabled {
-    background-image: url(wowbook/images/icons/fullscreen_off.png);
+    background-image: url(icons/fullscreen_off.png);
 }
 
 /*
@@ -315,4 +316,18 @@ nav a:hover,
 
 nav a {
   outline: none;
+}
+
+#pdes {
+    position: absolute;
+    top: 100px;
+}
+
+#click_to_open {
+    display: none
+    position: absolute;
+    left: 25%;
+    margin-left: -180px;
+    top: 50%;
+    margin-top: -50px;
 }

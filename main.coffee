@@ -24,6 +24,31 @@ $("#mybook").wowBook
         fullscreen: '#fullscreen'
 ###
 
+$("#pdes").wowBook
+    height: 500
+    width: 800
+    pageNumbers: 0
+    flipSound: 0
+    hardcovers: true
+    centeredWhenClosed: true
+    controls:
+        next: "#next"
+        back: "#back"
+        first: "#first"
+        last: "#last"
+        slideShow: "#slideshow"
+        flipSound: "#flipsound"
+        fullscreen: "#fullscreen"
+
+$("#pdes").css(
+    display: "none"
+    margin: "auto"
+    )
+
+$("#pdes").fadeIn 1000
+
+
+
 # Play movie
 
 movie = new $blab.Movie "solitons", {N:256, h:4e-5}
