@@ -4,49 +4,54 @@
 
   <title>Puzlet</title>
   <script src="http://puzlet.org/puzlet/js/puzlet.js"></script>
-
+  
 </head>
 
-<body style="background: url("images/wood.jpg")">
+<body>
 
-  <div id="container" style="background-color: #ccc; padding-top: 25px">
+  <div id="container">
 
     <nav>
+
       <ul>
         <li><a id='first'     href="#" title='goto first page'   >First page</a></li>
         <li><a id='back'      href="#" title='go back one page'  >Back</a></li>
         <li><a id='next'      href="#" title='go foward one page'>Next</a></li>
         <li><a id='last'      href="#" title='goto last page'    >last page</a></li>
-        <li><a id='zoomin'    href="#" title='zoom in'           >Zoom In</a></li>
-        <li><a id='zoomout'   href="#" title='zoom out'          >Zoom Out</a></li>
-        <li><a id='slideshow' href="#" title='start slideshow'   >Slide Show</a></li>
-        <li><a id='flipsound' href="#" title='flip sound on/off' >Flip sound</a></li>
-        <li><a id='fullscreen' href="#" title='fullscreen on/off' >Fullscreen</a></li>
-        <li><a id='thumbs'    href="#" title='thumbnails on/off' >Thumbs</a></li>
       </ul>
+
     </nav>
 
-    <style>.pde{ background-color: #fff; }</style>
-    
+    <img id='click_to_open' src="images/click_to_open.png" alt='click to open' />
+
     <div id="pdes">
 
       <div class='pde'>
 
-	<h2> The PDE Coffee Table Book </h2>
-	
-	<div style="text-align:left;">
-	  <b>Editor1 and Editor2, Editors</b>
-	  <img id='click_to_open' src="images/click_to_open.png" alt='click to open' />
+	<br>
+	<h3 style="text-align:center;"> The PDE Coffee Table Book </h3>
+
+	<div style="text-align:center;">
+	  An open source project
+	  <br>
+	  <br>
+	  A. Proposal
+	  <br>
+	  <img id="cover_img" src="images/cover.png"/>
+
 	</div>
 
       </div>
 
       <div class='pde'>
-        <p>KdV...</p>
+	<div id="solitons"></div>
+	<div id="solitons-x-label">$x$</div>
+	<div id="solitons-y-label">$u$</div>
       </div>
 
       <div class='pde'>
-	<div id="solitons"></div>
+	<div id="stack"></div>
+	<div id="stack-x-label">$x$</div>
       </div>
 
     </div>
