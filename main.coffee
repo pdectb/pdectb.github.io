@@ -15,7 +15,13 @@ $("#pdes").wowBook
         flipSound: "#flipsound"
         fullscreen: "#fullscreen"
 
-movie = new $blab.Movie "solitons", "stack",  {N:256, h:4e-5}
+movie = new $blab.Movie
+    aniId: "solitons"
+    stackId: "stack"
+    N: 256
+    h: 4e-5
+    dispersion: (z) -> j*z.pow(3) #- z.pow(2)
+#.
 
 setTimeout (->
     movie.initSoliton(-1, 800)
