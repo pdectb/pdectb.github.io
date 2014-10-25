@@ -23,6 +23,9 @@ movie = new $blab.Movie
     dispersion: (z) -> j*z.pow(3) #- z.pow(2)
 #.
 
+$("#cover").click ->
+    $.wowBook("#pdes").advance()
+
 setTimeout (->
     movie.initSoliton(-1, 800)
     movie.initSoliton(1, 200)
