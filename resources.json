@@ -5,7 +5,7 @@
     "http://pdectb.github.io/kdv-etdrk4/step.coffee",
     "kdv/movie.coffee",
     "https://api.github.com/repos/yapro/wowbook/contents/wow_book.min.js",
-	"main.html",
+    "main.html",
     "main.css",
-	"main.coffee"
+    "main.coffee"
 ]
