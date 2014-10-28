@@ -1,3 +1,6 @@
+$("#blab_container").css padding: 0
+$blab.noGitHubRibbon = true
+
 $("#pdes").wowBook
     height: 500
     width: 900

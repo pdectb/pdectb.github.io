@@ -1,10 +1,10 @@
 [
     "/puzlet/js/d3.min.js",
     "http://puzlet.org/line-chart/main.coffee",
-    "http://puzlet.org/basic-animation/main.coffee",
     "http://pdectb.github.io/kdv-etdrk4/step.coffee",
     "kdv/movie.coffee",
     "https://api.github.com/repos/yapro/wowbook/contents/wow_book.min.js",
+    "animation.coffee",
     "main.html",
     "main.css",
     "main.coffee"
