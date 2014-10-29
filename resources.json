@@ -7,5 +7,6 @@
     "animation.coffee",
     "main.html",
     "main.css",
-    "main.coffee"
+    "main.coffee",
+	"movie.coffee"
 ]
