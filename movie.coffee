@@ -4,9 +4,6 @@ movie = new $blab.Movie
     N: 256
     h: 4e-5
     dispersion: (z) -> j*z.pow(3)
-#.
-
-
 
 setTimeout (->
     movie.initSoliton(-1, 800)
